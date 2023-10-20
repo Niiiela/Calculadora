@@ -6,7 +6,7 @@ Calculadora desenvolvida em HTML, CSS e Javascript
    ![image](https://github.com/Niiiela/Calculadora/assets/73238827/a36f3f4f-30ce-45ef-b175-7789c4740ce7)
    <br>
 1. CSS
-   Já no CSS foi criado uma pasta em seguida o arquivo *Style.css*. Após isso, foi criado o link do css no html, com as class definidas no **HTML** foi realizado a formatação do projeto no css. Veja a imagem abaixo.
+   Já no CSS foi criado uma pasta em seguida o arquivo *Style.css*. Após isso, foi criado o link do css no html. Após a configuração do link no HTML foi realizado a formatação da calculadora, ou seja, definindo a estrutura como: **cor**, **tamanho da calculadora**, **margem** e **botões** para isso precisou ser estabelecida as class no **HTML**. Veja a imagem abaixo.
    ![image](https://github.com/Niiiela/Calculadora/assets/73238827/3468f73a-3e58-421b-ad41-035332634691)
 
 
