@@ -4,6 +4,7 @@ Calculadora desenvolvida em HTML, CSS e Javascript
 <ul>
   <li>** HTML **</li>  
   <li>**CSS**</li>
+  **em negrito**
 </ul>
 
 
