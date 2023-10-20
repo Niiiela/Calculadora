@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculadora">
+    <meta name="author" content="Daniela Vieira">
+    <meta name="keywords" content="'HTML', 'CSS' e 'JS'">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="../Calculadora/css/style.css">
+</head>
+<body>
+    <!--Start Calculator-->
+    <div class="calculator">
+        <!--Start Form-->
+        <form  class="form_calculator">
+            <!--Start Grup-->
+            <fieldset class="form_calculator-screem">
+                <!--Start Legend-->
+                <legend class="legend">Calculadora</legend>
+                <!--End Legend-->
+                <!--Start Screen-->
+                <input type="text" class="screem" id="screem" placeholder="0" disabled="disabled" />
+                <!--End Screem-->
+                <!--Start Button-->
+                <!--Start Div-1-->
+                <div class="grup">
+                    <input type="reset" class="button" onclick="Calculate()" id="clean_all" name="clean_all" value="AC">
+                    <!--<input type="reset" class="button" onclick="Calculate()" id="clean_all" name="clean_all" value="C">
+                    <input type="reset" class="button" onclick="Calculate()" id="clean_all" name="clean_all" value="%">-->
+                    <input type="button" class="button" onclick="Calculate('/', 'operation')" id="operators_to_divide" name="operators_to_divide" value="/">
+                </div>
+                <!--End Div-1-->
+                <!--Start Div-2-->
+                <div class="grup">
+                    <input type="button" class="button" onclick="Calculate(7, 'number')" id="number_7" name="number_7" value="7">
+                    <input type="button" class="button" onclick="Calculate(8, 'number')" id="number_8" name="number_8" value="8">
+                    <input type="button" class="button" onclick="Calculate(9, 'number')" id="number_9" name="number_9" value="9">
+                    <input type="button" class="button" onclick="Calculate('*', 'operation')" id="operators_multiplication" name="operators_multiplication" value="*">
+                </div>
+                <!--Start Div-2-->
+                <!--Start Div-3-->
+                <div class="grup">
+                    <input type="button" class="button" onclick="Calculate(4, 'number')" id="number_4" name="number_4" value="4">
+                    <input type="button" class="button" onclick="Calculate(5, 'number')" id="number_5" name="number_5" value="5">
+                    <input type="button" class="button" onclick="Calculate(6, 'number')" id="number_6" name="number_6" value="6">
+                    <input type="button" class="button" onclick="Calculate('-', 'operation')" id="operators_any_less" name="operators_any_less" value="-">
+                </div>
+                <!--End Div-3-->
+                <!--Start Div-4-->
+                <div class="grup">
+                    <input type="button" class="button" onclick="Calculate(1, 'number')" id="number_1" name="number_1" value="1">
+                    <input type="button" class="button" onclick="Calculate(2, 'number')" id="number_2" name="number_2" value="2">
+                    <input type="button" class="button" onclick="Calculate(3, 'number')" id="number_3" name="number_3" value="3">
+                    <input type="button" class="button" onclick="Calculate('+','operation')" id="operators_more" name="operators_more" value="+">
+                </div>
+                <!--End Div-4-->
+                <!--Start Div-5-->
+                <div class="grup">
+                    <input type="button" class="button-center" onclick="Calculate(0, 'number')" id="number_0" name="number_0" value="0">
+                    <input type="button" class="button" onclick="Calculate('.','operation')" id="point" name="point" value=",">
+                    <input type="button" class="button-center" onclick="Calculate('=', 'operation')" id="operators_equal" name="operators_equal" value="=">
+                </div>
+                <!--End Div-5-->
+                <!--End Button-->
+            </fieldset>
+            <!--End Grup-->
+        </form>
+        <!--End Form-->
+    </div>
+    <!--End Calculator-->
+</body>
+<script src="../Calculadora/js/script.js"></script>
+</html>
